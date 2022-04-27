@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: black;
+}
+
+h1
+{
+    font-size: 175%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section
+{
+    position: relative;
+    background-color: grey;
+    border: 2px solid black;
+    margin-left: 2.5%;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+article
+{
+    text-align: center;
+    border: 2px solid black;
+    font-weight: 600;
+    width: 45%;
+    float: right;
+    font-size: 125%;
+    padding:5px;
+    
+}
+
+p
+{
+    clear: right;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#art1
+{
+    background-color: rgb(221, 131, 146);
+    color: black;
+}
+
+#art2
+{
+    background-color: #ad3436;
+    color: white;
+}
+
+#art3
+{
+    background-color: rgb(218, 228, 110);
+    color: black;
+}
+
+
+
+@media(min-width:768px) and (max-width: 991px)
+{
+    .full1
+    {
+        width: 95%;
+    }
+
+    .half1
+    {
+        width: 46.25%
+    }
+
+    section
+    {
+        float:left;
+    }
+}
+
+@media(min-width: 992px)
+{
+    .len3
+    {
+        width: 30%;
+    }
+
+    section
+    {
+        float: left;
+    }
+}
+
+section:hover
+{
+    color:rgb(6, 107, 130);
+    background-color: rgb(204, 225, 230);
+    
+}
